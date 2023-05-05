@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* height: 100vh; */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#time{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 83vh;
+}
+.main{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+.main h1{
+    color: purple;
+}
+.main button{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#total{
+    color: purple;
+}
+#obt{
+    color: purple;
+}
+#per{
+    color: purple;
+}
+#grade{
+    color: purple;
+}
+.content input{
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+                                                       /* Home Work */
+                                                    /* Tuesday 14-March-23 */

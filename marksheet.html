@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./marksheet.css">
+</head>
+                                                <!-- Monday 14-March-23 -->
+<body>
+    <h1 id="time"></h1>
+    <div class="container">
+        <div class="content">
+            <div class="main">
+                <h1><u>Mark Sheet</u></h1>
+                <input type="text" placeholder="Enter Your Name Or ID" id="username"><br><br>
+                <input type="number" placeholder="English" id="eng"><br><br>
+                <input type="number" placeholder="Urdu" id="urdu"><br><br>
+                <input type="number" placeholder="Math" id="math"><br><br>
+                <button onclick="markSheet()">Result</button>
+                <a href=""><button onclick="reload()">Refresh</button></a>
+
+                <div class="Result">
+                <h2>Total Marks: <span id="total"></span></h2>
+                <h2>Obtained Marks: <span id="obt"></span></h2>
+                <h2>Percentage <span id="per"></span>%</h2>
+                <h2>Grade <span id="grade"></span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./marksheet.js"></script>
+</html
